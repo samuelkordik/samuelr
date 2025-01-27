@@ -4,24 +4,38 @@
 # samuelr
 
 <!-- badges: start -->
+
+[![Codecov test
+coverage](https://codecov.io/gh/samuelkordik/samuelr/graph/badge.svg)](https://app.codecov.io/gh/samuelkordik/samuelr)
 <!-- badges: end -->
 
-Welcome to my personal R package! Please feel free to borrow any and all
-functionality you might find useful from this code.
+Welcome to my personal R package! This is a collection of useful tools
+and utilities I use to solve common problems I encounter. Feel free to
+borrow what you find beneficial.
 
 ## Installation
 
-You can install the development version of samuelr like so:
+You can install the development version of samuelr from
+[GitHub](https://github.com/) with:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+# install.packages("pak")
+pak::pak("samuelkordik/samuelr")
 ```
 
-## Example
+## Key Functions
 
-This is a basic example which shows you how to solve a common problem:
+### if_error
+
+Function wrapper to gracefully handle errors (similar to Excel’s IFERROR
+function):
 
 ``` r
 #library(samuelr)
-## basic example code
+#log_or_na <- if_error(log) # Returns log() but if there's an error, just returns NA.
+#log_or_na(2)
+# [1] 0.6931472
+#log_or_na("A")
+# non-numeric argument to mathematical function
+# [1] NA
 ```
