@@ -21,4 +21,9 @@ Suggests:
 Config/testthat/edition: 3
 Imports: 
     attempt,
-    rlang
+    fitdistrplus,
+    MASS,
+    rlang,
+    stats,
+    withr
+RoxygenNote: 7.3.2

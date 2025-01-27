@@ -8,6 +8,9 @@
 #' @export
 #'
 #' @examples
+#' log_or_na <- if_error(log) # Returns log() or NA on error
+#' log_or_na(2) # Returns log(2)
+#' log_or_na("A") # Returns NA, but no error.
 #'
 if_error <- function(.f, .on_error = NA, .verbose = TRUE) {
 library(attempt)
