@@ -1,0 +1,16 @@
+Package: samuelr
+Type: Package
+Title: Samuel Kordik's Personal R package
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Samuel", "Kordik",
+      email = "samuel@samuelkordik.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: Simply a compilation of useful functions for things 
+    I do in R.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
