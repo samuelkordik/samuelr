@@ -19,6 +19,9 @@ sample_with_distribution <- function(x, size, seed = 1234) {
   attempt::stop_if_not(size, ~ .x > 0,
                       msg = "size must be greater than zero.")
 
+  x <- x[!is.na(x)]
+
+
   # FIT DISTRIBUTION
 
   distribution_attempts <- c("normal", "lognormal", "exponential",

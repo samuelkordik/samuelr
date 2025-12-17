@@ -42,3 +42,6 @@ log_or_na(2)
 log_or_na("A")
 
 ```
+
+### Use Defined Columns
+This is a useful function for functional programming with uncertain data. By providing a set of defined column names with regex pattern matching, the function identifies and renames columns in the provided data to enable building flexible functional data.

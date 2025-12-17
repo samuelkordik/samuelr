@@ -21,9 +21,16 @@ Suggests:
 Config/testthat/edition: 3
 Imports: 
     attempt,
+    dplyr,
     fitdistrplus,
+    ggplot2,
+    hrbrthemes,
     MASS,
+    purrr,
+    readr,
     rlang,
     stats,
+    stringr,
+    tibble,
     withr
 RoxygenNote: 7.3.2

@@ -1,0 +1,12 @@
+dfr_colors <- list(omd_navy = "#00286F",
+                   omd_red = "#d80000",
+                   dfr_gold = "#e8bd00",
+                   dark_navy = "#15324c",
+                   grey = "#A5a5a5",
+                   red = "#c6291c",
+                   aqua = "#7bd3f9",
+                   yellow = "#f5bf42",
+                   accent1 = "#00399e",
+                   accent2 = "#004acf",
+                   accent3 = "#005cff",
+                   green = "#7eaa55")

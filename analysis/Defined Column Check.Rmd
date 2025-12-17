@@ -1,0 +1,126 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+# Developing a Col Check pattern system
+```{r}
+cad <- readr::read_csv(here::here("data/CAD INCIDENTS_Export.csv")) |> 
+  janitor::clean_names()
+
+tibble::tribble(
+  ~target_colname, ~pattern, ~required, ~
+  "cad_id","cad_id",
+  "cad_datetime","cad_date_time",
+  "scene_latitude","latitude",
+  "scene_longitude","longitude",
+  "incident_number","e(_|\\.|\\s|-)?response(_|\\.|\\s|-)?(03)",
+  "unit_number","e(_|\\.|\\s|-)?response(_|\\.|\\s|-)?(13)",
+  "complaint","e(_|\\.|\\s|-)?dispatch(_|\\.|\\s|-)?(01)",
+  "card_num","e(_|\\.|\\s|-)?dispatch(_|\\.|\\s|-)?(03)",
+  "hospital","e(_|\\.|\\s|-)?disposition(_|\\.|\\s|-)?(01)",
+  "emd_performed","e(_|\\.|\\s|-)?dispatch(_|\\.|\\s|-)?(02)",
+  "ems_agency","d(_|\\.|\\s|-)?agency(_|\\.|\\s|-)?(03)",
+  "psap_call_datetime","e(_|\\.|\\s|-)?times(_|\\.|\\s|-)?(01)",
+  "dispatch_notified_datetime","e(_|\\.|\\s|-)?times(_|\\.|\\s|-)?(02)",
+  "dispatched_datetime","e(_|\\.|\\s|-)?times(_|\\.|\\s|-)?(03)",
+  "enroute_datetime","e(_|\\.|\\s|-)?times(_|\\.|\\s|-)?(05)",
+  "on_scene_datetime","e(_|\\.|\\s|-)?times(_|\\.|\\s|-)?(06)",
+  "left_scene_datetime","e(_|\\.|\\s|-)?times(_|\\.|\\s|-)?(09)",
+  "at_dest_datetime","e(_|\\.|\\s|-)?times(_|\\.|\\s|-)?(11)",
+  "unit_in_service_datetime","e(_|\\.|\\s|-)?times(_|\\.|\\s|-)?(13)"
+) -> column_definitions
+
+
+
+tibble::tibble(colname = stringr::str_to_lower(colnames(cad)),
+               column_definitions |> tidyr::pivot_wider(names_from = target_colname,
+                                         values_from = pattern)
+               ) -> cols_to_check
+
+
+
+```
+```{r}
+g_defined_cols <- n_distinct(column_definitions$target_colname)
+g_source_cols <-  length(colnames(cad))
+cli::cli_inform("Checking for {g_defined_cols} defined columns in {g_source_cols} columns in source dataframe.")
+
+cols_to_check |> 
+  dplyr::mutate(dplyr::across(-colname,
+                              ~ stringr::str_detect(colname, .x)
+                              )) |> 
+  dplyr::rowwise() |> 
+    dplyr::mutate(matched_column_n = sum(dplyr::c_across(dplyr::where(is.logical)),na.rm=TRUE)) |> 
+    dplyr::mutate(unmatched_column = matched_column_n < 1 | is.na(matched_column_n),
+                  overmatched_column = matched_column_n > 1,
+                  matched_column = matched_column_n == 1) |> 
+    dplyr::ungroup() |> 
+    dplyr::summarize(
+      dplyr::across(dplyr::where(is.logical), ~ sum(.x, na.rm=TRUE)
+      )
+    ) -> checked_cols
+
+# FINISH IT
+  dplyr::bind_cols(
+    checked_cols |> 
+      dplyr::select(-unmatched_column,
+                    -overmatched_column,
+                    -matched_column) |> 
+      tidyr::pivot_longer(tidyr::everything(),
+                          names_to = "variable") |> 
+      dplyr::mutate(missing = value < 1 | is.na(value),
+                    multiple = value > 1
+      ) |> 
+      dplyr::summarize(matched_columns = sum(value, na.rm=TRUE),
+                       missing_columns = sum(missing, na.rm=TRUE),
+                       multiple_columns = sum(multiple, na.rm=TRUE)
+      ),
+    checked_cols |> dplyr::select(unmatched_column,
+                                  overmatched_column,
+                                  matched_column
+    )
+  ) |> dplyr::mutate(total_columns = length(colnames(cad))) -> output
+  
+  
+  
+  
+
+```
+
+```{r}
+
+tibble::tibble(colname = stringr::str_to_lower(colnames(cad)),
+                  column_definitions |> tidyr::pivot_wider(names_from = `defined_colnames`,
+                                                           values_from = `defined_colname_patterns`)
+  ) |> 
+  dplyr::mutate(dplyr::across(-colname,
+                                ~ stringr::str_detect(colname, .x)
+    )) -> temp
+temp
+```
+```{r}
+
+                  
+
+get_match <- function(a) {
+  temp[temp[[a]],]$colname
+}
+
+tibble::tibble(defined_colnames) -> crossmatch 
+crossmatch$matched_colname <- purrr::map_chr(defined_colnames, get_match)
+
+cad2 <- cad
+
+tibble::tibble(orig = colnames(cad)) |> 
+  dplyr::left_join(crossmatch, by = c("orig" = "matched_colname")) |> 
+  dplyr::mutate(newcolname = dplyr::if_else(is.na(defined_colnames),
+                                            orig,
+                                            defined_colnames)) |> 
+  dplyr::pull(newcolname) -> colnames(cad2)
+
+cad2 |> dplyr::select(
+  dplyr::all_of(defined_colnames))
+
+```
+

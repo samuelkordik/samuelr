@@ -39,3 +39,10 @@ log_or_na("A")
 #> non-numeric argument to mathematical function
 #> [1] NA
 ```
+
+### Use Defined Columns
+
+This is a useful function for functional programming with uncertain
+data. By providing a set of defined column names with regex pattern
+matching, the function identifies and renames columns in the provided
+data to enable building flexible functional data.
