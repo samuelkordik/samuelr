@@ -9,6 +9,12 @@ dfr_cols(...)
 \arguments{
 \item{...}{color choices}
 }
+\value{
+DFR color
+}
 \description{
 Access DFR Colors
+}
+\examples{
+dfr_cols("omd_navy")
 }

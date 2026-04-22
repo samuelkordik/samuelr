@@ -1,7 +1,7 @@
 Package: samuelr
 Type: Package
 Title: Samuel Kordik's Personal R package
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: c(
     person(
       "Samuel", "Kordik",
@@ -23,8 +23,11 @@ Imports:
     attempt,
     dplyr,
     fitdistrplus,
+    forcats,
     ggplot2,
+    gt,
     hrbrthemes,
+    lubridate,
     MASS,
     purrr,
     readr,

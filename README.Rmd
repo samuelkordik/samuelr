@@ -32,6 +32,28 @@ pak::pak("samuelkordik/samuelr")
 
 ## Key Functions
 
+### Formatting functions
+
+`fmt_date()` is a helper function to make vectorized date formatting slightly smoother. This allows for two simple formats: "abbr" which yields "Jan 1, 2025", and "short" which creates "1/1/2025". It also supports printing two-value vectors as a range, i.e., "1/1/2025 - 7/15/2025", or "Jan 1, 2025 to Jul 15, 2025".
+
+`fmt_comma()` produces comma-separated numbers, optionally with some number of decimals.
+
+`fmt_compact()` produces a compact version of numbers (e.g., 1,000 becomes 1K)
+
+`fmt_pct()` produces percent formatted nubers. Defaults to two decimal places.
+
+```{r}
+library(samuelr)
+nums <- c(2032200, 80, 20500000, 984710, 4188.6, 70, 27247000, 9.994, 950, 7e+06,NA)
+
+list(
+    dates = fmt_date(as.Date("2025-01-01"), format = "abbr"),
+    comma = fmt_comma(nums),
+    compact = fmt_compact(nums),
+    pcts = fmt_pct(runif(10))
+)
+```
+
 ### if_error
 Function wrapper to gracefully handle errors (similar to Excel's IFERROR function):
 
