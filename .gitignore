@@ -2,3 +2,5 @@
 .Rhistory
 .RData
 .Ruserdata
+# Raw data exports — keep package data (data/*.rda) and curated taxonomies (data-raw/*.csv) only
+data/*.csv
