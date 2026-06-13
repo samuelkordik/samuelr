@@ -73,7 +73,7 @@ billions (\code{"B"}), and trillions (\code{"T"}) suffixes after automatic value
 scaling.
 
 We can alternatively provide a character vector that serves as a
-specification for which symbols are to used for each of the value ranges.
+specification for which symbols are to be used for each of the value ranges.
 These preferred symbols will replace the defaults (e.g.,
 \code{c("k", "Ml", "Bn", "Tr")} replaces \code{"K"}, \code{"M"}, \code{"B"}, and \code{"T"}).
 
@@ -124,12 +124,22 @@ a sign for all values except zero)? If so, use \code{TRUE} for this option. The
 default is \code{FALSE}, where only negative numbers will display a minus sign.
 This option is disregarded when using accounting notation with
 \code{accounting = TRUE}.}
+    \item{\code{min_sep_threshold}}{\emph{Minimum digit threshold for grouping separators}
+
+\code{scalar<numeric|integer>(val>=1)} // \emph{default:} \code{1}
+
+The minimum number of digits required in the integer part of a number for
+grouping separators to be applied. This parameter determines when digit
+grouping begins based on the magnitude of values. The value \code{1} (the
+default) applies separators starting at 4-digit numbers (e.g., \verb{1,000} and
+above). A value of \code{2} starts grouping at 5-digit numbers (\verb{10,000} and
+above), while \code{3} begins at 6-digit numbers (\verb{100,000} and above).}
     \item{\code{locale}}{\emph{Locale identifier}
 
 \verb{scalar<character>} // \emph{default:} \code{NULL} (\code{optional})
 
 An optional locale identifier that can be used for formatting values
-according the locale's rules. Examples include \code{"en"} for English (United
+according to the locale's rules. Examples include \code{"en"} for English (United
 States) and \code{"fr"} for French (France). We can call \code{\link[gt:info_locales]{info_locales()}} for a
 useful reference for all of the locales that are supported.}
     \item{\code{output}}{\emph{Output format}

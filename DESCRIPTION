@@ -1,7 +1,7 @@
 Package: samuelr
 Type: Package
 Title: Samuel Kordik's Personal R package
-Version: 0.1.1
+Version: 0.1.2
 Authors@R: c(
     person(
       "Samuel", "Kordik",
@@ -36,4 +36,6 @@ Imports:
     stringr,
     tibble,
     withr
-RoxygenNote: 7.3.2
+Depends: 
+    R (>= 3.5)
+Config/roxygen2/version: 8.0.0

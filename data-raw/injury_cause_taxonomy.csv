@@ -1,0 +1,79 @@
+desc,code,tier1,tier2,n
+Fall from Standing position,W01,Falls,Fall from standing position / same level,4286
+Accident- MVC,Y32,Blunt Trauma - MVC/Transportation,MVC - vehicle occupant (unspecified),2746
+Fall - Other,W18,Falls,Fall - other/unspecified,1279
+Injury - Other,T14,Other/Unspecified Injury,Injury - other/unspecified,1013
+Assault by bodily force,Y04,Assault - Blunt,Assault by bodily force,895
+Fall off Chair,W07,Falls,Fall from chair,713
+Fall off Bed,W06,Falls,Fall from bed,682
+Accident- Auto vs Pedestrian,V03.1,Blunt Trauma - MVC/Transportation,Pedestrian struck by automobile,477
+"Assault, unspecified (e.g. attempted homicide)",Y09,Assault - Blunt,Assault - unspecified,398
+Fall on Stairs and steps,W10.9,Falls,Fall on stairs/steps,375
+Assault by blunt object,Y00,Assault - Blunt,Assault by blunt object,369
+GSW - Intentional,X95,Penetrating Trauma - Firearm,GSW - assault/intentional,301
+Contact with blunt object,Y29,Blunt Trauma - Struck/Crush,Contact with blunt object (undetermined intent),293
+Contact with sharp object,Y28.9,Penetrating Trauma - Sharp,Contact with sharp object (undetermined intent),282
+Bite (animal),W55.81,Animal/Bites & Envenomations,Animal bite,245
+Stabbing,W26,Penetrating Trauma - Sharp,Stabbing / contact with knife,243
+Accident- Bicycle/Bike or other Cycle,V19.9,Blunt Trauma - MVC/Transportation,Bicycle/pedal cycle accident,231
+Accident- Motorcycle,V29.9,Blunt Trauma - MVC/Transportation,Motorcycle accident,229
+Fall from High place,Y30,Falls,Fall from height (undetermined intent),191
+Contact with sharp glass,W25,Penetrating Trauma - Sharp,Contact with sharp glass,156
+Fall off Toilet,W18.1,Falls,Fall from toilet,121
+Fall in Shower,W18.2,Falls,Fall in shower/bathroom,113
+Abuse/neglect (suspected),T76.9,Abuse/Maltreatment,Abuse/neglect - suspected,110
+Fall off Ladder,W11,Falls,Fall from ladder,100
+Burn(s) - Other,X19,Burns/Fire/Explosion,Burn - other,99
+Fall on Ice /snow,W00.9,Falls,Fall on ice/snow,98
+"Caught, crushed, jammed or pinched in or between objects",W23,Blunt Trauma - Struck/Crush,Caught/crushed/jammed/pinched between objects,82
+Exercise induced injury,Y93.B9,Sports/Exertion,Exercise-induced injury,75
+Accident with motorized scooter/segway,V00.83,Blunt Trauma - MVC/Transportation,Motorized scooter/segway accident,74
+Suicide attempt ( unspecified sharp object),X78.9,Penetrating Trauma - Sharp,Sharp object - intentional self-harm,63
+GSW - Accidental discharge,W34,Penetrating Trauma - Firearm,GSW - accidental discharge,58
+Contact with machinery ( unspecified),W31.9,Machinery/Industrial,Machinery - unspecified,56
+"Burns - Exposure smoke, fire and flames",Y26,Burns/Fire/Explosion,Smoke/fire/flames exposure,54
+Accident- ATV,V86.39,Blunt Trauma - MVC/Transportation,ATV accident,47
+"Foreign body or object entering through skin (e.g. nail, lid of can, metal piece, wood piece, etc.)",W45,Penetrating Trauma - Sharp,Foreign body entering through skin,45
+Fall on/from Playground Equipment,W09,Falls,Fall from playground equipment,42
+"Sexual Abuse, Criminal Assault Confirmed Suspected",T76.2,Abuse/Maltreatment,Sexual abuse/assault - suspected,41
+Bite (human),Y04.1,Animal/Bites & Envenomations,Human bite (assault),39
+Poisoning-Venomous Bite/Sting ( plant or animal),T63,Animal/Bites & Envenomations,Venomous bite/sting (plant or animal),30
+Suicide attempt ( unspecified),T14.91,Other/Unspecified Injury,Suicide attempt - unspecified mechanism,29
+Accident - MVC involving Fire/EMS,V86.31,Blunt Trauma - MVC/Transportation,MVC involving Fire/EMS apparatus,25
+Contact with powered hand tools and household machinery,W29,Machinery/Industrial,Powered hand tools / household machinery,22
+"Sexual Abuse, Criminal Assault Confirmed",T74.2,Abuse/Maltreatment,Sexual abuse/assault - confirmed,22
+Electrocution,T75.4,Electrical Injury,Electrocution,21
+GSW - Intentional self-harm,X74,Penetrating Trauma - Firearm,GSW - intentional self-harm,20
+Accident- Bicycle/Bike or other Cycle vs Pedestrian,V01,Blunt Trauma - MVC/Transportation,Pedestrian struck by bicycle,18
+Accident- Train vs Ped,V05.9,Blunt Trauma - MVC/Transportation,Pedestrian struck by train,18
+Accident - Wheelchair ( motorized),V00.812,Blunt Trauma - MVC/Transportation,Motorized wheelchair accident,17
+Fall from Roof,W13.2,Falls,Fall from roof,15
+Exposure to excessive natural cold,X31,Environmental,Excessive natural cold,12
+Exposure to excessive natural heat,X30,Environmental,Excessive natural heat,12
+Fall out/through Window,W13.4,Falls,Fall out of/through window,12
+Accident with non-motorized scooter,V00.14,Blunt Trauma - MVC/Transportation,Non-motorized scooter accident,11
+Asphyxiation due to hanging,T71.16,Asphyxiation,Hanging,11
+Poisoning- Intentional drugged,T50.901,Poisoning/Toxic Exposure,Intentional drugging/poisoning by drugs,10
+Discharge of firework,W39,Burns/Fire/Explosion,Firework discharge,9
+Fall from Tree,W14,Falls,Fall from tree,9
+"Crushed, pushed or stepped on by crowd or human stampede",W52,Blunt Trauma - Struck/Crush,Crowd crush / human stampede,7
+Fall from Scaffolding,W12,Falls,Fall from scaffolding,7
+Puncture from hypodermic needle,W46,Penetrating Trauma - Sharp,Hypodermic needle puncture,7
+Accidental drowning/submersion Swimming Pool,W67,Drowning/Submersion,Swimming pool,6
+Asphyxiation ( unspecified),T71.9,Asphyxiation,Asphyxiation - unspecified,6
+Contact with agricultural machinery (unspecified),W30.9,Machinery/Industrial,Agricultural machinery,6
+"Fall, jump or diving into water",W16,Falls,Fall/jump/dive into water,6
+Suicide attempt (jumping from high place),X80,Falls,Jump from height - intentional self-harm,6
+GSW - Malfunction of firearm,W34.10,Penetrating Trauma - Firearm,GSW - firearm malfunction,5
+Poisoning- Unspecifed,T65.9,Poisoning/Toxic Exposure,Poisoning - unspecified,5
+Skateboarding and Roller Skating,Y93.51,Sports/Exertion,Skateboarding / roller skating,5
+Suicide attempt ( firearm discharge),X74.9,Penetrating Trauma - Firearm,GSW - intentional self-harm (unspecified firearm),5
+Accident- Bus vs Pedestrian,V70.9,Blunt Trauma - MVC/Transportation,Pedestrian struck by bus,4
+Explosion,W40.9,Burns/Fire/Explosion,Explosion (unspecified material),4
+"Poisoning- Gases, fumes and vapors , unspecified",T59.9,Poisoning/Toxic Exposure,"Gases, fumes and vapors",4
+Accidental drowning/submersion in Bathtub,W65,Drowning/Submersion,Bathtub,3
+Accidental drowning/submersion in Natural Water,W69,Drowning/Submersion,Natural water,2
+Suicide attempt ( jumping/lying in front of moving object),X81,Blunt Trauma - MVC/Transportation,Jump/lie before moving object - intentional self-harm,2
+Accident- Aircraft related,V97.89,Blunt Trauma - MVC/Transportation,Aircraft-related accident,1
+Earthquake,X34,Environmental,Earthquake,1
+Exposure to ignition of highly flammable material,X04,Burns/Fire/Explosion,Ignition of highly flammable material,1

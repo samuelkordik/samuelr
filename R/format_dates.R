@@ -7,7 +7,7 @@
 #' @param dates vector of dates
 #' @param format one of "abbr" or "short"
 #' @param range is this a range or not?
-#' @param range_collapse string for collapse of range, defaults to " to " for
+#' @param range_collapse strbing for collapse of range, defaults to " to " for
 #' "abbr" format and " - " for "short" format.
 #'
 #' @returns character vector

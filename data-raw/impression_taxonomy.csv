@@ -1,0 +1,372 @@
+code,desc,desc_normalized,tier1,tier2,n
+T78.40,Allergic Reaction,Allergic Reaction,Allergic Reaction,Allergic Reaction,442
+T78.2,Allergic Reaction- Anaphylaxis,Allergic Reaction- Anaphylaxis,Allergic Reaction,Anaphylaxis,60
+L50.0,Allergic Urticaria (Hives),Allergic Urticaria (Hives),Allergic Reaction,Urticaria/Hives,62
+R41.82,Altered Mental Status,Altered Mental Status,Altered Mental Status,Altered Mental Status,1954
+F99,Behavioral Health Emergency (Other),Behavioral Health Emergency (Other),Behavioral/Psychiatric,Behavioral Health - Other,839
+F99,MH- Unspecified Mental Disorder,MH- Unspecified Mental Disorder,Behavioral/Psychiatric,Behavioral Health - Other,647
+F31.10,MH- Bipolar,MH- Bipolar,Behavioral/Psychiatric,Bipolar,66
+F32.8,MH- Depression,MH- Depression,Behavioral/Psychiatric,Depression,85
+R45.88,Behavioral HealthNonsuicidal Self Harm,Behavioral HealthNonsuicidal Self Harm,Behavioral/Psychiatric,Non-Suicidal Self-Harm,122
+R45.88,Nonsuicidal self-harm,Nonsuicidal self-harm,Behavioral/Psychiatric,Non-Suicidal Self-Harm,2
+F20.1,MH- Schizophrenia,MH- Schizophrenia,Behavioral/Psychiatric,Schizophrenia,108
+R45.851,Behavioral HealthSuicidal Ideation,Behavioral HealthSuicidal Ideation,Behavioral/Psychiatric,Suicidal Ideation,303
+R45.851,MH- Suicidal Ideations,MH- Suicidal Ideations,Behavioral/Psychiatric,Suicidal Ideation,213
+T14.91,Behavioral HealthSuicide Attempt,Behavioral HealthSuicide Attempt,Behavioral/Psychiatric,Suicide Attempt,103
+T14.91,MH- Suicide Attempt,MH- Suicide Attempt,Behavioral/Psychiatric,Suicide Attempt,89
+R45.6,Behavioral HealthViolent/Combative,Behavioral HealthViolent/Combative,Behavioral/Psychiatric,Violent/Combative,137
+T63.4,Trauma: Bite- Insect,Trauma: Bite- Insect,Bites/Envenomation,Insect Bite/Sting,87
+T63.00,Trauma: Bite- Snake,Trauma: Bite- Snake,Bites/Envenomation,Snake Bite/Envenomation,11
+T63.30,Trauma: Spider Bite/Envenomation,Trauma: Spider Bite/Envenomation,Bites/Envenomation,Spider Bite/Envenomation,48
+T30.0,Trauma: Burns (any location),Trauma: Burns (any location),Burns,Burn,102
+T20.00XA,Trauma: Burn- Head/Face,Trauma: Burn- Head/Face,Burns,Burn,31
+T21.04,Trauma: Burn- Lower Back,Trauma: Burn- Lower Back,Burns,Burn,21
+T22.00,Trauma: Burn- Arm,Trauma: Burn- Arm,Burns,Burn,20
+T23.00,Trauma: Burn- Hand,Trauma: Burn- Hand,Burns,Burn,19
+T21.01,Trauma: Burn- Chest Wall,Trauma: Burn- Chest Wall,Burns,Burn,13
+T21.03,Trauma: Burn- Upper Back,Trauma: Burn- Upper Back,Burns,Burn,12
+T24.00,Trauma: Burn- Leg,Trauma: Burn- Leg,Burns,Burn,11
+T21.02,Trauma: Burn- Abdominal Wall,Trauma: Burn- Abdominal Wall,Burns,Burn,8
+T20.07,Trauma: Burn- Neck,Trauma: Burn- Neck,Burns,Burn,5
+T30,Trauma: Burn- Other,Trauma: Burn- Other,Burns,Burn,4
+T25.02,Trauma: Burn- Foot,Trauma: Burn- Foot,Burns,Burn,3
+T21.09,Trauma: Burn- Genital Region,Trauma: Burn- Genital Region,Burns,Burn,2
+I20.9,Cardiac: Chest Pain (Not STEMI),Cardiac: Chest Pain (Not STEMI),Cardiac - Chest Pain/ACS,Chest Pain (Non-STEMI),919
+I20.9,Cardiac- Chest Pain (Angina or Ischemic),Cardiac- Chest Pain (Angina or Ischemic),Cardiac - Chest Pain/ACS,Chest Pain (Non-STEMI),740
+I21.3,Cardiac: STEMI,Cardiac: STEMI,Cardiac - Chest Pain/ACS,STEMI,50
+I21.3,Cardiac- ST Elevation (STEMI),Cardiac- ST Elevation (STEMI),Cardiac - Chest Pain/ACS,STEMI,18
+I46.9,Cardiac Arrest,Cardiac Arrest,Cardiac Arrest,Cardiac Arrest,365
+I46.9,Cardiac- Cardiac Arrest (Cause Unknown),Cardiac- Cardiac Arrest (Cause Unknown),Cardiac Arrest,Cardiac Arrest,230
+I71.4,"Abdominal Aortic Aneurysm, without rupture (AAA)","Abdominal Aortic Aneurysm, without rupture (AAA)",Cardiac/Vascular - Other,AAA,3
+I49.9,Cardiac: Arrhythmia/Dysrhythmia,Cardiac: Arrhythmia/Dysrhythmia,Cardiac/Vascular - Other,Arrhythmia/Dysrhythmia,216
+I49.9,Cardiac- Arrhythmia/Dysrhythmia,Cardiac- Arrhythmia/Dysrhythmia,Cardiac/Vascular - Other,Arrhythmia/Dysrhythmia,108
+R57.0,Shock- Cardiogenic,Shock- Cardiogenic,Cardiac/Vascular - Other,Cardiogenic Shock,4
+I16.0,Hypertensive,Hypertensive,Cardiac/Vascular - Other,Hypertensive Emergency,509
+I16.9,Hypertensive Emergency,Hypertensive Emergency,Cardiac/Vascular - Other,Hypertensive Emergency,458
+I16.9,Hypertensive Crisis,Hypertensive Crisis,Cardiac/Vascular - Other,Hypertensive Emergency,43
+I95.9,Hypotensive,Hypotensive,Cardiac/Vascular - Other,Hypotension/Shock,248
+R57.9,Hypotension/Shock,Hypotension/Shock,Cardiac/Vascular - Other,Hypotension/Shock,211
+I95.9,xHypotensive,Hypotensive,Cardiac/Vascular - Other,Hypotension/Shock,1
+I99.9,Other Artery/Vein Problem,Other Artery/Vein Problem,Cardiac/Vascular - Other,Other Vascular,46
+I99.9,Unspecified disorder of circulatory system,Unspecified disorder of circulatory system,Cardiac/Vascular - Other,Other Vascular,1
+I47.1,Cardiac - Supraventricular tachycardia,Cardiac - Supraventricular tachycardia,Cardiac/Vascular - Other,SVT,39
+R00.0,Cardiac - Tachycardia,Cardiac - Tachycardia,Cardiac/Vascular - Other,Tachycardia,280
+I47.2,Cardiac - Ventricular tachycardia,Cardiac - Ventricular tachycardia,Cardiac/Vascular - Other,Ventricular Tachycardia,9
+E86.0,Dehydration,Dehydration,Diabetic/Metabolic/Endocrine,Dehydration/Hypovolemia,180
+E86.9,Dehydration/Hypovolemia,Dehydration/Hypovolemia,Diabetic/Metabolic/Endocrine,Dehydration/Hypovolemia,178
+E86.1,Hypovolemic,Hypovolemic,Diabetic/Metabolic/Endocrine,Dehydration/Hypovolemia,10
+E13.69,Diabetes - Other,Diabetes - Other,Diabetic/Metabolic/Endocrine,Diabetes - Other,66
+E13.65,Diabetes- Hyperglycemia,Diabetes- Hyperglycemia,Diabetic/Metabolic/Endocrine,Hyperglycemia,482
+E13.65,Diabetic Hyperglycemia,Diabetic Hyperglycemia,Diabetic/Metabolic/Endocrine,Hyperglycemia,443
+E13.64,Diabetic Hypoglycemia,Diabetic Hypoglycemia,Diabetic/Metabolic/Endocrine,Hypoglycemia,349
+E13.64,Diabetes- Hypoglycemia,Diabetes- Hypoglycemia,Diabetic/Metabolic/Endocrine,Hypoglycemia,296
+E16.2,Hypoglycemic (Non-Diabetic),Hypoglycemic (Non-Diabetic),Diabetic/Metabolic/Endocrine,Hypoglycemia,79
+R57.1,Shock- Hypovolemic,Shock- Hypovolemic,Diabetic/Metabolic/Endocrine,Hypotension/Shock,2
+E34.9,Other Endocrine Problem,Other Endocrine Problem,Diabetic/Metabolic/Endocrine,Other Endocrine,63
+T67.5,Heat Related- Exhaustion,Heat Related- Exhaustion,Environmental,Heat-Related (Other),171
+T67.1,Heat Related- Syncope,Heat Related- Syncope,Environmental,Heat-Related (Other),89
+T67.2,Heat Related- Heat Cramp,Heat Related- Heat Cramp,Environmental,Heat-Related (Other),75
+T67.9,Heat Emergency,Heat Emergency,Environmental,Heat-Related (Other),67
+T67.5,xHeat Related- Exhaustion,Heat Related- Exhaustion,Environmental,Heat-Related (Other),3
+T67.2,xHeat Related- Heat Cramp,Heat Related- Heat Cramp,Environmental,Heat-Related (Other),2
+T68,Hypothermia,Hypothermia,Environmental,Hypothermia,33
+T68,Hypothermic,Hypothermic,Environmental,Hypothermia,21
+Z04.4,Examination of Alleged Sexual Abuse / Criminal Assault,Examination of Alleged Sexual Abuse / Criminal Assault,Evaluation/No Acute Complaint,Abuse/Assault Exam,106
+Z04.4,Examination of Alleged Sexual Assault/Rape,Examination of Alleged Sexual Assault/Rape,Evaluation/No Acute Complaint,Abuse/Assault Exam,58
+Z04.7,Examination of Alleged Physical Abuse,Examination of Alleged Physical Abuse,Evaluation/No Acute Complaint,Abuse/Assault Exam,43
+Z04.71,Examination of Alleged Adult Physical Abuse,Examination of Alleged Adult Physical Abuse,Evaluation/No Acute Complaint,Abuse/Assault Exam,14
+Z04.72,Examination of Alleged Child Physical Abuse,Examination of Alleged Child Physical Abuse,Evaluation/No Acute Complaint,Abuse/Assault Exam,7
+Z74.1,Assist with Personal Care (Assist Invalid),Assist with Personal Care (Assist Invalid),Evaluation/No Acute Complaint,Evaluation - Other,186
+Z77.9,Exposure to Health Hazard (Known or Suspected),Exposure to Health Hazard (Known or Suspected),Evaluation/No Acute Complaint,Evaluation - Other,13
+Z04.9,Examination and/or Observation Unspecified,Examination and/or Observation Unspecified,Evaluation/No Acute Complaint,Exam/Observation,2446
+Z71.1,Feared Complaint with No Findings,Feared Complaint with No Findings,Evaluation/No Acute Complaint,No Findings,3164
+R10.84,Abdominal Pain/Problem,Abdominal Pain/Problem,GI/Abdominal,Abdominal Pain/Problem,1340
+R10.84,Abdominal- Generalized Pain,Abdominal- Generalized Pain,GI/Abdominal,Abdominal Pain/Problem,1106
+R10.81,Abdominal- Tenderness,Abdominal- Tenderness,GI/Abdominal,Abdominal Pain/Problem,70
+R14.0,Abdominal- Distension (Gaseous),Abdominal- Distension (Gaseous),GI/Abdominal,Abdominal Pain/Problem,52
+K35.80,Abdominal- Appendicitis,Abdominal- Appendicitis,GI/Abdominal,Abdominal Pain/Problem,31
+R18,Abdominal- Ascites,Abdominal- Ascites,GI/Abdominal,Abdominal Pain/Problem,14
+R10.82,Abdominal- Rebound Tenderness,Abdominal- Rebound Tenderness,GI/Abdominal,Abdominal Pain/Problem,11
+R19.30,Abdominal- Rigidity,Abdominal- Rigidity,GI/Abdominal,Abdominal Pain/Problem,11
+K92.9,Gastrointestinal Problem,Gastrointestinal Problem,GI/Abdominal,GI - Other,181
+K59.1,GI- Diarrhea,GI- Diarrhea,GI/Abdominal,GI - Other,114
+K59.00,GI- Constipation,GI- Constipation,GI/Abdominal,GI - Other,104
+K21,GI- GERD (Gastro-Esophageal Reflux Disease),GI- GERD (Gastro-Esophageal Reflux Disease),GI/Abdominal,GI - Other,44
+K92.2,GI- Hemorrhage (GI Bleed),GI- Hemorrhage (GI Bleed),GI/Abdominal,GI Bleed,136
+K92.2,GI Hemorrhage,GI Hemorrhage,GI/Abdominal,GI Bleed,106
+K92.0,GI- Hematemesis,GI- Hematemesis,GI/Abdominal,GI Bleed,42
+R11,Nausea and Vomiting,Nausea and Vomiting,GI/Abdominal,Nausea/Vomiting,1229
+Z49,Encounter for care involving renal dialysis,Encounter for care involving renal dialysis,GU/Renal,Dialysis-Related,76
+itICD.052,Pain (Non-Traumatic)- Flank,Pain (Non-Traumatic)- Flank,GU/Renal,Flank Pain,213
+R58,Hemorrhage (Non-Traumatic),Hemorrhage (Non-Traumatic),General Medical - Other,Bleeding (Non-Traumatic),72
+D49,Cancer Complications,Cancer Complications,General Medical - Other,Cancer Complications,147
+K08.9,Dental Emergency,Dental Emergency,General Medical - Other,Dental Problem,40
+L02.91,Abscess (Cutaneous),Abscess (Cutaneous),General Medical - Other,Dental Problem,32
+K04.7,Dental or Tooth Abcess and/or Infection,Dental or Tooth Abcess and/or Infection,General Medical - Other,Dental Problem,27
+K08.9,"Disorder of teeth and supporting structures, unspecified","Disorder of teeth and supporting structures, unspecified",General Medical - Other,Dental Problem,1
+Z43.9,"Complications relating to catheter (tracheostomy, GI tube, colostomy, etc.)","Complications relating to catheter (tracheostomy, GI tube, colostomy, etc.)",General Medical - Other,Device/Wound Complication,194
+T81.30,Wound Complications,Wound Complications,General Medical - Other,Device/Wound Complication,156
+Z45.9,"Complications relating to implanted pacemaker/defibrillator, stimulator, VAD, or other device.","Complications relating to implanted pacemaker/defibrillator, stimulator, VAD, or other device.",General Medical - Other,Device/Wound Complication,31
+R42,Dizziness/Vertigo,Dizziness/Vertigo,General Medical - Other,Dizziness/Vertigo,890
+R04.0,Epistaxis,Epistaxis,General Medical - Other,Epistaxis,125
+H57.9,Other Eye Pain/Problem,Other Eye Pain/Problem,General Medical - Other,Eye Problem,197
+H57.9,Unspecified disorder of eye and adnexa,Unspecified disorder of eye and adnexa,General Medical - Other,Eye Problem,1
+T15,Foreign Body- Eye,Foreign Body- Eye,General Medical - Other,Foreign Body (Non-Airway),47
+T16,Foreign Body- Ear,Foreign Body- Ear,General Medical - Other,Foreign Body (Non-Airway),21
+T18.9,Foreign Body- Swallowed,Foreign Body- Swallowed,General Medical - Other,Foreign Body (Non-Airway),14
+R53.81,Malaise (General Medical Complaint),Malaise (General Medical Complaint),General Medical - Other,Malaise/General Illness,3811
+D57.0,Sickle Cell Crisis,Sickle Cell Crisis,General Medical - Other,Sickle Cell Crisis,107
+R53.1,Weakness,Weakness,General Medical - Other,Weakness,2263
+B34.2,Possible or Confirmed COVID-19 (Coronavirus),Possible or Confirmed COVID-19 (Coronavirus),Infectious/Sepsis,COVID-19,56
+R50.9,Fever,Fever,Infectious/Sepsis,Fever,156
+J11,Flu Symptoms,Flu Symptoms,Infectious/Sepsis,Flu-Like Illness,198
+G03.9,Meningitis,Meningitis,Infectious/Sepsis,Meningitis,2
+A41.9,Sepsis,Sepsis,Infectious/Sepsis,Sepsis,168
+R65.21,Shock- Septic,Shock- Septic,Infectious/Sepsis,Sepsis,6
+R07.0,Sore Throat,Sore Throat,Infectious/Sepsis,URI/Sore Throat,141
+G96.9,Other Neurological Emergency,Other Neurological Emergency,Neuro - Other,Neurological - Other,86
+G83.9,Neuro: Paralysis (Partial or Full),Neuro: Paralysis (Partial or Full),Neuro - Other,Paralysis,22
+G82.20,Neuro- Paraplegia,Neuro- Paraplegia,Neuro - Other,Paralysis,9
+G81.90,Neuro- Hemiplegia,Neuro- Hemiplegia,Neuro - Other,Paralysis,6
+G82.50,Neuro- Quadriplegia,Neuro- Quadriplegia,Neuro - Other,Paralysis,4
+O47.9,OB/GYN: Labor without Delivery,OB/GYN: Labor without Delivery,OB/GYN/Newborn,Labor/Delivery,186
+itICD.049,OB- Labor,OB- Labor,OB/GYN/Newborn,Labor/Delivery,80
+O75,OB/GYN: Labor and Delivery,OB/GYN: Labor and Delivery,OB/GYN/Newborn,Labor/Delivery,18
+O80,OB- Labor and Delivery,OB- Labor and Delivery,OB/GYN/Newborn,Labor/Delivery,17
+O75,OB- Labor and Delivery with Complications,OB- Labor and Delivery with Complications,OB/GYN/Newborn,Labor/Delivery,3
+Z05.9,Newborn: Normal/No Complications,Newborn: Normal/No Complications,OB/GYN/Newborn,Newborn,17
+P29.81,Newborn Resuscitation,Newborn Resuscitation,OB/GYN/Newborn,Newborn,4
+P96.9,Newborn with Complications,Newborn with Complications,OB/GYN/Newborn,Newborn,3
+O26.90,OB- Other Complications,OB- Other Complications,OB/GYN/Newborn,OB/GYN - Other,93
+N94.9,OB/GYN: Pelvic and Perineal Pain,OB/GYN: Pelvic and Perineal Pain,OB/GYN/Newborn,OB/GYN - Other,63
+O26.90,OB/GYN: Pregnancy Complications,OB/GYN: Pregnancy Complications,OB/GYN/Newborn,OB/GYN - Other,53
+R10.2,GYN- Pelvic and Perineal,GYN- Pelvic and Perineal,OB/GYN/Newborn,OB/GYN - Other,40
+O71.9,OB- Obstetric Trauma,OB- Obstetric Trauma,OB/GYN/Newborn,OB/GYN - Other,4
+N93.9,OB/GYN: Vaginal Bleeding,OB/GYN: Vaginal Bleeding,OB/GYN/Newborn,OB/GYN Bleeding,133
+O26.859,OB- Abnormal Uterine or Vaginal Bleeding,OB- Abnormal Uterine or Vaginal Bleeding,OB/GYN/Newborn,OB/GYN Bleeding,111
+O46,OB/GYN: Pregnancy-related Bleeding/Spotting,OB/GYN: Pregnancy-related Bleeding/Spotting,OB/GYN/Newborn,OB/GYN Bleeding,55
+N93.9,GYN- Abnormal Bleeding,GYN- Abnormal Bleeding,OB/GYN/Newborn,OB/GYN Bleeding,51
+O14.9,OB- Pre-eclampsia,OB- Pre-eclampsia,OB/GYN/Newborn,Pre-Eclampsia/Eclampsia,5
+O14.9,OB/GYN: Pre-Eclampsia,OB/GYN: Pre-Eclampsia,OB/GYN/Newborn,Pre-Eclampsia/Eclampsia,4
+O03,OB- Spontaneous Abortion,OB- Spontaneous Abortion,OB/GYN/Newborn,Spontaneous Abortion,19
+G89.1,"Pain, Acute (Non-Traumatic)","Pain, Acute (Non-Traumatic)",Pain (Non-Traumatic),Acute Pain (Non-Traumatic),1797
+G89.1,Pain (Non-Traumatic)- Other,Pain (Non-Traumatic)- Other,Pain (Non-Traumatic),Acute Pain (Non-Traumatic),1155
+M54.9,Pain (Non-Traumatic)- Back,Pain (Non-Traumatic)- Back,Pain (Non-Traumatic),Acute Pain (Non-Traumatic),567
+M25.569,Pain - Knee,Pain - Knee,Pain (Non-Traumatic),Acute Pain (Non-Traumatic),489
+G89.2,"Pain, Chronic (Non-Traumatic)","Pain, Chronic (Non-Traumatic)",Pain (Non-Traumatic),Chronic Pain,861
+G89.2,Pain (Non-Traumatic)- Chronic Unspecified,Pain (Non-Traumatic)- Chronic Unspecified,Pain (Non-Traumatic),Chronic Pain,305
+K08.8,Pain (Non-Traumatic)- Tooth/Mouth,Pain (Non-Traumatic)- Tooth/Mouth,Pain (Non-Traumatic),Dental/Oral Pain,98
+H57.10,Pain (Non-Traumatic)- Ocular/Eye,Pain (Non-Traumatic)- Ocular/Eye,Pain (Non-Traumatic),Eye Pain,119
+R51.9,Headache/Migraine,Headache/Migraine,Pain (Non-Traumatic),Headache/Migraine,700
+R51,Pain (Non-Traumatic)- Headache/Migraine,Pain (Non-Traumatic)- Headache/Migraine,Pain (Non-Traumatic),Headache/Migraine,540
+S01.90XA,Trauma: Gunshot Wound- Head/Face,Trauma: Gunshot Wound- Head/Face,Penetrating Trauma,Gunshot Wound,48
+S21.90XA,Trauma: Gunshot Wound- Chest,Trauma: Gunshot Wound- Chest,Penetrating Trauma,Gunshot Wound,40
+S31.609A,Trauma: Gunshot Wound- Abdomen,Trauma: Gunshot Wound- Abdomen,Penetrating Trauma,Gunshot Wound,26
+S81.809A,Trauma: Gunshot Wound- Lower Leg,Trauma: Gunshot Wound- Lower Leg,Penetrating Trauma,Gunshot Wound,24
+S71.109A,Trauma: Gunshot Wound- Thigh (Upper Leg),Trauma: Gunshot Wound- Thigh (Upper Leg),Penetrating Trauma,Gunshot Wound,22
+S61.409A,Trauma: Gunshot Wound- Hand,Trauma: Gunshot Wound- Hand,Penetrating Trauma,Gunshot Wound,20
+S91.309A,Trauma: Gunshot Wound- Foot,Trauma: Gunshot Wound- Foot,Penetrating Trauma,Gunshot Wound,13
+S41.009A,Trauma: Gunshot Wound- Shoulder,Trauma: Gunshot Wound- Shoulder,Penetrating Trauma,Gunshot Wound,12
+S41.109A,Trauma: Gunshot Wound- Upper Arm,Trauma: Gunshot Wound- Upper Arm,Penetrating Trauma,Gunshot Wound,10
+S21.409A,Trauma: Gunshot Wound- Upper Back,Trauma: Gunshot Wound- Upper Back,Penetrating Trauma,Gunshot Wound,9
+S81.009A,Trauma: Gunshot Wound- Knee,Trauma: Gunshot Wound- Knee,Penetrating Trauma,Gunshot Wound,7
+S11.90XA,Trauma: Gunshot Wound- Neck,Trauma: Gunshot Wound- Neck,Penetrating Trauma,Gunshot Wound,6
+S91.009A,Trauma: Gunshot Wound- Ankle,Trauma: Gunshot Wound- Ankle,Penetrating Trauma,Gunshot Wound,6
+S31.809A,Trauma: Gunshot Wound- Buttock,Trauma: Gunshot Wound- Buttock,Penetrating Trauma,Gunshot Wound,5
+S71.009S,Trauma: Gunshot Wound- Hip,Trauma: Gunshot Wound- Hip,Penetrating Trauma,Gunshot Wound,4
+S31.001A,Trauma: Gunshot Wound- Lower Back and Pelvis,Trauma: Gunshot Wound- Lower Back and Pelvis,Penetrating Trauma,Gunshot Wound,3
+S51.809A,Trauma: Gunshot Wound- Forearm,Trauma: Gunshot Wound- Forearm,Penetrating Trauma,Gunshot Wound,3
+S51.009,Trauma: Gunshot Wound- Elbow,Trauma: Gunshot Wound- Elbow,Penetrating Trauma,Gunshot Wound,2
+S01.94,Trauma: Stabbing- Head/Face,Trauma: Stabbing- Head/Face,Penetrating Trauma,Stabbing,18
+S31.64,Trauma: Stabbing- Abdomen,Trauma: Stabbing- Abdomen,Penetrating Trauma,Stabbing,17
+S61.44,Trauma: Stabbing- Hand,Trauma: Stabbing- Hand,Penetrating Trauma,Stabbing,16
+S21.94,Trauma: Stabbing- Chest,Trauma: Stabbing- Chest,Penetrating Trauma,Stabbing,15
+S41.14,Trauma: Stabbing- Upper Arm,Trauma: Stabbing- Upper Arm,Penetrating Trauma,Stabbing,15
+S11.94,Trauma: Stabbing- Neck,Trauma: Stabbing- Neck,Penetrating Trauma,Stabbing,10
+S51.84,Trauma: Stabbing- Forearm,Trauma: Stabbing- Forearm,Penetrating Trauma,Stabbing,10
+S41.04,Trauma: Stabbing- Shoulder,Trauma: Stabbing- Shoulder,Penetrating Trauma,Stabbing,8
+S21.44,Trauma: Stabbing- Upper Back,Trauma: Stabbing- Upper Back,Penetrating Trauma,Stabbing,7
+S81.84,Trauma: Stabbing- Lower Leg,Trauma: Stabbing- Lower Leg,Penetrating Trauma,Stabbing,6
+S31.04,Trauma: Stabbing- Lower Back and Pelvis,Trauma: Stabbing- Lower Back and Pelvis,Penetrating Trauma,Stabbing,5
+S71.14,Trauma: Stabbing- Thigh (Upper Leg),Trauma: Stabbing- Thigh (Upper Leg),Penetrating Trauma,Stabbing,4
+S91.34,Trauma: Stabbing- Foot,Trauma: Stabbing- Foot,Penetrating Trauma,Stabbing,4
+S31.804,Trauma: Stabbing- Buttock,Trauma: Stabbing- Buttock,Penetrating Trauma,Stabbing,3
+S71.04,Trauma: Stabbing- Hip,Trauma: Stabbing- Hip,Penetrating Trauma,Stabbing,2
+S81.04,Trauma: Stabbing- Knee,Trauma: Stabbing- Knee,Penetrating Trauma,Stabbing,1
+S91.049,Trauma: Stabbing- Ankle,Trauma: Stabbing- Ankle,Penetrating Trauma,Stabbing,1
+J45.901,Respiratory: Asthma Exacerbation,Respiratory: Asthma Exacerbation,Respiratory,Asthma Exacerbation,286
+J45.901,Respiratory- Asthma Exacerbation,Respiratory- Asthma Exacerbation,Respiratory,Asthma Exacerbation,260
+R06.9,Respiratory-Unspecified Breathing Difficulty,Respiratory-Unspecified Breathing Difficulty,Respiratory,Breathing Difficulty (Unspecified),917
+R06.9,Respiratory Difficulty,Respiratory Difficulty,Respiratory,Breathing Difficulty (Unspecified),591
+J68.9,Respiratory Distress due to Chemicals or Gases,Respiratory Distress due to Chemicals or Gases,Respiratory,Breathing Difficulty (Unspecified),10
+I50.9,Cardiac: CHF,Cardiac: CHF,Respiratory,CHF/Pulmonary Edema,132
+I50.9,Cardiac- CHF,Cardiac- CHF,Respiratory,CHF/Pulmonary Edema,93
+J44.1,Respiratory: COPD Exacerbation,Respiratory: COPD Exacerbation,Respiratory,COPD Exacerbation,254
+J44.1,Respiratory-COPD Exacerbation,Respiratory-COPD Exacerbation,Respiratory,COPD Exacerbation,140
+T17.9,Choking: Food/Foreign Body,Choking: Food/Foreign Body,Respiratory,Choking/FBAO,111
+T17.92,Choking- Food,Choking- Food,Respiratory,Choking/FBAO,82
+T17.9,Choking- Foreign Body Object,Choking- Foreign Body Object,Respiratory,Choking/FBAO,35
+R05,Cough,Cough,Respiratory,Cough,679
+J22,"Respiratory: Lower Airway Infection (Bronchitis, Pneumonia, etc.)","Respiratory: Lower Airway Infection (Bronchitis, Pneumonia, etc.)",Respiratory,Lower Airway Infection,164
+J22,"Respiratory- Lower Airway Infection (Bronchitis, Pneumonia, etc.)","Respiratory- Lower Airway Infection (Bronchitis, Pneumonia, etc.)",Respiratory,Lower Airway Infection,77
+R09.2,Respiratory Arrest,Respiratory Arrest,Respiratory,Respiratory Arrest,11
+J96.9,Respiratory Failure,Respiratory Failure,Respiratory,Respiratory Failure,58
+T71.9,Respiratory-Suffocation or Asphyxia,Respiratory-Suffocation or Asphyxia,Respiratory,Suffocation/Asphyxia,8
+T71.9,xRespiratory-Suffocation or Asphyxia,Respiratory-Suffocation or Asphyxia,Respiratory,Suffocation/Asphyxia,1
+J06.9,"Respiratory: Upper Resp Infection (Cold, Croup, Epiglottitis, etc.)","Respiratory: Upper Resp Infection (Cold, Croup, Epiglottitis, etc.)",Respiratory,Upper Respiratory Infection,109
+J06.9,"Respiratory- Upper Resp Infection (Cold, Croup, Epiglottitis, etc.)","Respiratory- Upper Resp Infection (Cold, Croup, Epiglottitis, etc.)",Respiratory,Upper Respiratory Infection,54
+G40.909,Seizures,Seizures,Seizure,Seizure,1300
+G40.901,Seizures with Status Epilepticus,Seizures with Status Epilepticus,Seizure,Seizure - Status Epilepticus,170
+I63.9,CVA (Stroke),CVA (Stroke),Stroke/CVA,Stroke/CVA,357
+I63.9,Stroke/CVA,Stroke/CVA,Stroke/CVA,Stroke/CVA,335
+T67.0,Heat Related- Heatstroke,Heat Related- Heatstroke,Stroke/CVA,Stroke/CVA,22
+T67.0,xHeat Related- Heatstroke,Heat Related- Heatstroke,Stroke/CVA,Stroke/CVA,2
+F10.9,Drug Use/Overdose: Alcohol,Drug Use/Overdose: Alcohol,Substance Use/Overdose,Alcohol Intoxication,565
+F10.9,Drug Use/Overdose - Alcohol,Drug Use/Overdose - Alcohol,Substance Use/Overdose,Alcohol Intoxication,470
+F10.23,Alcohol Withdrawal,Alcohol Withdrawal,Substance Use/Overdose,Alcohol Withdrawal,119
+F10.23,Drug Withdrawal- Alcohol,Drug Withdrawal- Alcohol,Substance Use/Overdose,Alcohol Withdrawal,102
+F13.9,Drug Use/Overdose: Benzodiazepines/Sedatives,Drug Use/Overdose: Benzodiazepines/Sedatives,Substance Use/Overdose,Benzodiazepine/Sedative,111
+F13.9,"Sedative, hypnotic or anxiolytic-related use, unspecified","Sedative, hypnotic or anxiolytic-related use, unspecified",Substance Use/Overdose,Benzodiazepine/Sedative,1
+F12.929,Drug Use/Overdose- Cannabis (Other than K2),Drug Use/Overdose- Cannabis (Other than K2),Substance Use/Overdose,Cannabis/K2,118
+F12.929,Drug Use/Overdose: Cannabis,Drug Use/Overdose: Cannabis,Substance Use/Overdose,Cannabis/K2,104
+F12.1,Drug Use/Overdose- K2,Drug Use/Overdose- K2,Substance Use/Overdose,Cannabis/K2,41
+F14.1,Drug Use/Overdose- Cocaine,Drug Use/Overdose- Cocaine,Substance Use/Overdose,Cocaine,87
+F14.9,Drug Use/Overdose: Cocaine,Drug Use/Overdose: Cocaine,Substance Use/Overdose,Cocaine,86
+F14.9,"Cocaine use, unspecified","Cocaine use, unspecified",Substance Use/Overdose,Cocaine,2
+F19.93,Drug Withdrawal,Drug Withdrawal,Substance Use/Overdose,Drug Withdrawal,64
+F15.23,Drug Withdrawal- Other Stimulant,Drug Withdrawal- Other Stimulant,Substance Use/Overdose,Drug Withdrawal,38
+F11.23,Drug Withdrawal- Opioid,Drug Withdrawal- Opioid,Substance Use/Overdose,Drug Withdrawal,37
+F14.23,Drug Withdrawal- Cocaine,Drug Withdrawal- Cocaine,Substance Use/Overdose,Drug Withdrawal,1
+F19.930,"Other psychoactive substance use, unspecified with withdrawal, uncomplicated","Other psychoactive substance use, unspecified with withdrawal, uncomplicated",Substance Use/Overdose,Drug Withdrawal,1
+F16.9,Drug Use/Overdose: Hallucinogen,Drug Use/Overdose: Hallucinogen,Substance Use/Overdose,Hallucinogen,78
+F16.1,Drug Use/Overdose- Hallucinogen,Drug Use/Overdose- Hallucinogen,Substance Use/Overdose,Hallucinogen,54
+F18.9,Drug Use/Overdose: Inhalant,Drug Use/Overdose: Inhalant,Substance Use/Overdose,Inhalant,20
+F18.1,Drug Use/Overdose- Inhalant,Drug Use/Overdose- Inhalant,Substance Use/Overdose,Inhalant,13
+F11.1,Drug Use/Overdose- Opioid (Narcotic),Drug Use/Overdose- Opioid (Narcotic),Substance Use/Overdose,Opioid,357
+F11.9,Drug Use/Overdose: Opioids,Drug Use/Overdose: Opioids,Substance Use/Overdose,Opioid,328
+F11.9,"Opioid use, unspecified","Opioid use, unspecified",Substance Use/Overdose,Opioid,2
+F15.9,Drug Use/Overdose: Other Stimulants,Drug Use/Overdose: Other Stimulants,Substance Use/Overdose,Stimulant,329
+F15.1,Drug Use/Overdose - Stimulant,Drug Use/Overdose - Stimulant,Substance Use/Overdose,Stimulant,169
+itICD.047,Drug Use/Overdose - Unknown,Drug Use/Overdose - Unknown,Substance Use/Overdose,Unknown/Other Substance,495
+F19.9,Drug Use/Overdose: Unknown Substance,Drug Use/Overdose: Unknown Substance,Substance Use/Overdose,Unknown/Other Substance,392
+F19.9,"Other psychoactive substance use, unspecified","Other psychoactive substance use, unspecified",Substance Use/Overdose,Unknown/Other Substance,1
+R55,Syncope,Syncope,Syncope,Syncope,934
+T58.9,Carbon Monoxide Poisoning,Carbon Monoxide Poisoning,Toxic Exposure/Poisoning,CO/Smoke Inhalation,3
+T59.81,Smoke inhalation (carbon monoxide/cyanide poisoning),Smoke inhalation (carbon monoxide/cyanide poisoning),Toxic Exposure/Poisoning,CO/Smoke Inhalation,3
+T65.9,Poisoning/Toxic Exposure,Poisoning/Toxic Exposure,Toxic Exposure/Poisoning,Poisoning/Toxic Exposure,15
+T65.9,Toxic effect of unspecified substance,Toxic effect of unspecified substance,Toxic Exposure/Poisoning,Poisoning/Toxic Exposure,1
+S00.91,Trauma: Abrasion- Head,Trauma: Abrasion- Head,Trauma - Blunt/Other,Abrasion,474
+S80.81,Trauma: Abrasion- Lower Leg,Trauma: Abrasion- Lower Leg,Trauma - Blunt/Other,Abrasion,106
+S50.81,Trauma: Abrasion- Forearm,Trauma: Abrasion- Forearm,Trauma - Blunt/Other,Abrasion,91
+S60.51,Trauma: Abrasion- Hand,Trauma: Abrasion- Hand,Trauma - Blunt/Other,Abrasion,89
+S80.21,Trauma: Abrasion- Knee,Trauma: Abrasion- Knee,Trauma - Blunt/Other,Abrasion,77
+S50.31,Trauma: Abrasion- Elbow,Trauma: Abrasion- Elbow,Trauma - Blunt/Other,Abrasion,74
+S00.21,Trauma: Abrasion- Eye and Orbit,Trauma: Abrasion- Eye and Orbit,Trauma - Blunt/Other,Abrasion,54
+S40.219,Trauma: Abrasion- Shoulder,Trauma: Abrasion- Shoulder,Trauma - Blunt/Other,Abrasion,52
+S20.91,Trauma: Abrasion- Chest,Trauma: Abrasion- Chest,Trauma - Blunt/Other,Abrasion,50
+S30.810,Trauma: Abrasion- Lower Back and Pelvis,Trauma: Abrasion- Lower Back and Pelvis,Trauma - Blunt/Other,Abrasion,49
+S40.81,Trauma: Abrasion- Upper Arm,Trauma: Abrasion- Upper Arm,Trauma - Blunt/Other,Abrasion,43
+S70.21,Trauma: Abrasion- Hip,Trauma: Abrasion- Hip,Trauma - Blunt/Other,Abrasion,41
+S70.31,Trauma: Abrasion- Thigh (Upper Leg),Trauma: Abrasion- Thigh (Upper Leg),Trauma - Blunt/Other,Abrasion,30
+S00.511,Trauma: Abrasion- Lip,Trauma: Abrasion- Lip,Trauma - Blunt/Other,Abrasion,27
+S10.91,Trauma: Abrasion- Neck,Trauma: Abrasion- Neck,Trauma - Blunt/Other,Abrasion,27
+S90.51,Trauma: Abrasion- Ankle,Trauma: Abrasion- Ankle,Trauma - Blunt/Other,Abrasion,27
+S00.31,Trauma: Abrasion- Nose,Trauma: Abrasion- Nose,Trauma - Blunt/Other,Abrasion,23
+S60.81,Trauma: Abrasion- Wrist,Trauma: Abrasion- Wrist,Trauma - Blunt/Other,Abrasion,22
+S30.811,Trauma: Abrasion- Abdomen,Trauma: Abrasion- Abdomen,Trauma - Blunt/Other,Abrasion,20
+S00.41,Trauma: Abrasion- Ear,Trauma: Abrasion- Ear,Trauma - Blunt/Other,Abrasion,19
+S10.11,Trauma: Abrasion- Throat,Trauma: Abrasion- Throat,Trauma - Blunt/Other,Abrasion,6
+S68.11,Trauma: Amputation- Finger,Trauma: Amputation- Finger,Trauma - Blunt/Other,Amputation,15
+S58.019,Trauma: Amputation- Lower Arm (Elbow Level),Trauma: Amputation- Lower Arm (Elbow Level),Trauma - Blunt/Other,Amputation,8
+S88.019,Trauma: Amputation- Lower Leg (Knee Level),Trauma: Amputation- Lower Leg (Knee Level),Trauma - Blunt/Other,Amputation,7
+S78.111,Trauma: Amputation- Leg (Between Hip and Knee),Trauma: Amputation- Leg (Between Hip and Knee),Trauma - Blunt/Other,Amputation,5
+S98.1,Trauma: Amputation- Toe,Trauma: Amputation- Toe,Trauma - Blunt/Other,Amputation,5
+S98.019,Trauma: Amputation- Foot,Trauma: Amputation- Foot,Trauma - Blunt/Other,Amputation,3
+S48.9,Trauma: Amputation- Arm (Shoulder Level),Trauma: Amputation- Arm (Shoulder Level),Trauma - Blunt/Other,Amputation,2
+S58.11,Trauma: Amputation- Forearm (Between Wrist) and Elbow,Trauma: Amputation- Forearm (Between Wrist) and Elbow,Trauma - Blunt/Other,Amputation,1
+S89.9,Trauma: Knee/Lower Leg,Trauma: Knee/Lower Leg,Trauma - Blunt/Other,Blunt/Other Injury,1242
+S39.92,Trauma: Lower Back Injury,Trauma: Lower Back Injury,Trauma - Blunt/Other,Blunt/Other Injury,795
+S49.9,Trauma: Shoulder/Upper Arm Injury,Trauma: Shoulder/Upper Arm Injury,Trauma - Blunt/Other,Blunt/Other Injury,702
+S69.9,Trauma: Wrist/Hand/Finger Injury,Trauma: Wrist/Hand/Finger Injury,Trauma - Blunt/Other,Blunt/Other Injury,655
+S99.9,Unspecified injury of ankle and foot,Unspecified injury of ankle and foot,Trauma - Blunt/Other,Blunt/Other Injury,593
+S09.93,Trauma: Facial Injury,Trauma: Facial Injury,Trauma - Blunt/Other,Blunt/Other Injury,547
+S79.9,Trauma: Hip/Thigh Injury,Trauma: Hip/Thigh Injury,Trauma - Blunt/Other,Blunt/Other Injury,501
+S59.9,Trauma: Elbow/Forearm,Trauma: Elbow/Forearm,Trauma - Blunt/Other,Blunt/Other Injury,436
+S49.9,Trauma: Other Injury- Shoulder or Upper Arm,Trauma: Other Injury- Shoulder or Upper Arm,Trauma - Blunt/Other,Blunt/Other Injury,376
+S39.92,Trauma: Other Injury- Lower Back,Trauma: Other Injury- Lower Back,Trauma - Blunt/Other,Blunt/Other Injury,327
+S09.93,Trauma: Other Injury- Face,Trauma: Other Injury- Face,Trauma - Blunt/Other,Blunt/Other Injury,313
+S79.91,Trauma: Other Injury- Hip,Trauma: Other Injury- Hip,Trauma - Blunt/Other,Blunt/Other Injury,312
+S29.9,Trauma: Chest Injury,Trauma: Chest Injury,Trauma - Blunt/Other,Blunt/Other Injury,309
+S89.9,Trauma: Other Injury- Lower Leg,Trauma: Other Injury- Lower Leg,Trauma - Blunt/Other,Blunt/Other Injury,302
+S19.9,Trauma: Neck/Throat Injury,Trauma: Neck/Throat Injury,Trauma - Blunt/Other,Blunt/Other Injury,298
+S69.9,"Trauma: Other Injury- Wrist, Hand, and/or Fingers","Trauma: Other Injury- Wrist, Hand, and/or Fingers",Trauma - Blunt/Other,Blunt/Other Injury,271
+S19.9,Trauma: Other Injury- Neck,Trauma: Other Injury- Neck,Trauma - Blunt/Other,Blunt/Other Injury,220
+S99.92,Trauma: Other Injury- Foot,Trauma: Other Injury- Foot,Trauma - Blunt/Other,Blunt/Other Injury,212
+S93.0,Trauma: Other Injury- Ankle,Trauma: Other Injury- Ankle,Trauma - Blunt/Other,Blunt/Other Injury,204
+T14.90,Trauma: Other Injury- Unspecified,Trauma: Other Injury- Unspecified,Trauma - Blunt/Other,Blunt/Other Injury,169
+S79.92,Trauma: Other Injury- Thigh (Upper Leg),Trauma: Other Injury- Thigh (Upper Leg),Trauma - Blunt/Other,Blunt/Other Injury,149
+S29.9,Trauma: Other Injury- Chest,Trauma: Other Injury- Chest,Trauma - Blunt/Other,Blunt/Other Injury,144
+S59.91,Trauma: Other Injury- Forearm,Trauma: Other Injury- Forearm,Trauma - Blunt/Other,Blunt/Other Injury,133
+S29.002,Trauma: Other Injury- Upper Back,Trauma: Other Injury- Upper Back,Trauma - Blunt/Other,Blunt/Other Injury,130
+S39.91,Trauma: Abdominal Injury,Trauma: Abdominal Injury,Trauma - Blunt/Other,Blunt/Other Injury,119
+S05.9,Trauma: Eye Injury,Trauma: Eye Injury,Trauma - Blunt/Other,Blunt/Other Injury,118
+S05,Trauma: Other Injury- Eye and Orbit,Trauma: Other Injury- Eye and Orbit,Trauma - Blunt/Other,Blunt/Other Injury,99
+S09.92,Trauma: Other Injury- Nose,Trauma: Other Injury- Nose,Trauma - Blunt/Other,Blunt/Other Injury,94
+S80.91,Other Injury - Knee,Other Injury - Knee,Trauma - Blunt/Other,Blunt/Other Injury,83
+S39.93,Trauma: Pelvic Injury,Trauma: Pelvic Injury,Trauma - Blunt/Other,Blunt/Other Injury,73
+S39.91,Trauma: Other Injury- Abdomen,Trauma: Other Injury- Abdomen,Trauma - Blunt/Other,Blunt/Other Injury,72
+S39.94,Trauma: Genitalia Injury,Trauma: Genitalia Injury,Trauma - Blunt/Other,Blunt/Other Injury,57
+S59.90,Trauma: Other Injury- Elbow,Trauma: Other Injury- Elbow,Trauma - Blunt/Other,Blunt/Other Injury,49
+S09.91,Trauma: Ear Injury,Trauma: Ear Injury,Trauma - Blunt/Other,Blunt/Other Injury,45
+S39.94,Trauma: Other Injury- Genitalia,Trauma: Other Injury- Genitalia,Trauma - Blunt/Other,Blunt/Other Injury,44
+S09.91,Trauma: Other Injury- Ear,Trauma: Other Injury- Ear,Trauma - Blunt/Other,Blunt/Other Injury,34
+S00.501,Trauma: Other Injury- Lip,Trauma: Other Injury- Lip,Trauma - Blunt/Other,Blunt/Other Injury,25
+S39.93,Trauma: Other Injury- Pelvis,Trauma: Other Injury- Pelvis,Trauma - Blunt/Other,Blunt/Other Injury,24
+S00.502,Trauma: Other Injury- Oral Cavity,Trauma: Other Injury- Oral Cavity,Trauma - Blunt/Other,Blunt/Other Injury,4
+S59.9,Unspecified injury of elbow and forearm,Unspecified injury of elbow and forearm,Trauma - Blunt/Other,Blunt/Other Injury,1
+S43.00,Trauma: Dislocation- Shoulder,Trauma: Dislocation- Shoulder,Trauma - Blunt/Other,Dislocation,78
+S73.00,Trauma: Dislocation- Hip,Trauma: Dislocation- Hip,Trauma - Blunt/Other,Dislocation,67
+S99.91,Trauma: Dislocation- Ankle,Trauma: Dislocation- Ankle,Trauma - Blunt/Other,Dislocation,39
+S83.00,Trauma: Dislocation- Knee,Trauma: Dislocation- Knee,Trauma - Blunt/Other,Dislocation,33
+S53,Trauma: Dislocation- Elbow,Trauma: Dislocation- Elbow,Trauma - Blunt/Other,Dislocation,19
+S63.006A,Trauma: Dislocation- Wrist,Trauma: Dislocation- Wrist,Trauma - Blunt/Other,Dislocation,11
+S62.90,Trauma: Fracture- Wrist and/or Hand,Trauma: Fracture- Wrist and/or Hand,Trauma - Blunt/Other,Fracture,68
+S99.81,Trauma: Fracture- Ankle,Trauma: Fracture- Ankle,Trauma - Blunt/Other,Fracture,63
+S82.90,Trauma: Fracture- Lower Leg,Trauma: Fracture- Lower Leg,Trauma - Blunt/Other,Fracture,57
+S72.009,Trauma: Fracture- Hip,Trauma: Fracture- Hip,Trauma - Blunt/Other,Fracture,55
+S52.90,Trauma: Fracture- Forearm,Trauma: Fracture- Forearm,Trauma - Blunt/Other,Fracture,32
+S42.302,Trauma: Fracture- Upper Arm,Trauma: Fracture- Upper Arm,Trauma - Blunt/Other,Fracture,31
+S72.90,Trauma: Fracture- Femur,Trauma: Fracture- Femur,Trauma - Blunt/Other,Fracture,29
+S92.81,Trauma: Fracture- Foot,Trauma: Fracture- Foot,Trauma - Blunt/Other,Fracture,22
+S42.90,Trauma: Fracture- Shoulder,Trauma: Fracture- Shoulder,Trauma - Blunt/Other,Fracture,21
+S42.409,Trauma: Fracture- Elbow,Trauma: Fracture- Elbow,Trauma - Blunt/Other,Fracture,11
+S82.00,Trauma: Fracture- Knee,Trauma: Fracture- Knee,Trauma - Blunt/Other,Fracture,11
+S02.80,Trauma: Fracture- Skull/Facial,Trauma: Fracture- Skull/Facial,Trauma - Blunt/Other,Fracture,10
+S09.90,Trauma: Head Injury,Trauma: Head Injury,Trauma - Blunt/Other,Head Injury,1608
+S09.90,Trauma: Other Injury- Head,Trauma: Other Injury- Head,Trauma - Blunt/Other,Head Injury,814
+S09.12XA,Trauma: Laceration/Open Wound- Head/Face,Trauma: Laceration/Open Wound- Head/Face,Trauma - Blunt/Other,Laceration/Open Wound,638
+S51.809,Laceration/Open Wound Lower Arm or Forearm,Laceration/Open Wound Lower Arm or Forearm,Trauma - Blunt/Other,Laceration/Open Wound,188
+S65.919,Trauma: Laceration/Open Wound- Wrist and/or Hand,Trauma: Laceration/Open Wound- Wrist and/or Hand,Trauma - Blunt/Other,Laceration/Open Wound,183
+S86.929,Trauma: Laceration/Open Wound- Lower Leg,Trauma: Laceration/Open Wound- Lower Leg,Trauma - Blunt/Other,Laceration/Open Wound,93
+S91.30,Trauma: Laceration/Open Wound- Foot,Trauma: Laceration/Open Wound- Foot,Trauma - Blunt/Other,Laceration/Open Wound,74
+S81.01,Trauma: Laceration/Open Wound- Knee,Trauma: Laceration/Open Wound- Knee,Trauma - Blunt/Other,Laceration/Open Wound,38
+S76.829,Trauma: Laceration/Open Wound- Thigh (Upper Leg),Trauma: Laceration/Open Wound- Thigh (Upper Leg),Trauma - Blunt/Other,Laceration/Open Wound,24
+S91.00,Trauma: Laceration/Open Wound- Ankle,Trauma: Laceration/Open Wound- Ankle,Trauma - Blunt/Other,Laceration/Open Wound,24
+S39.021A,Trauma: Laceration/Open Wound- Abdomen,Trauma: Laceration/Open Wound- Abdomen,Trauma - Blunt/Other,Laceration/Open Wound,18
+S01.00XA,Trauma: Laceration/Open Wound- Scalp,Trauma: Laceration/Open Wound- Scalp,Trauma - Blunt/Other,Laceration/Open Wound,12
+S16.2XXA,Trauma: Laceration/Open Wound- Neck,Trauma: Laceration/Open Wound- Neck,Trauma - Blunt/Other,Laceration/Open Wound,12
+S29.021A,Trauma: Laceration/Open Wound- Chest,Trauma: Laceration/Open Wound- Chest,Trauma - Blunt/Other,Laceration/Open Wound,11
+S39.02,Trauma: Laceration/Open Wound- Lower Back and Pelvis,Trauma: Laceration/Open Wound- Lower Back and Pelvis,Trauma - Blunt/Other,Laceration/Open Wound,10
+S29.022D,Trauma: Laceration/Open Wound- Upper Back,Trauma: Laceration/Open Wound- Upper Back,Trauma - Blunt/Other,Laceration/Open Wound,6
+S76.029A,Trauma: Laceration/Open Wound- Hip,Trauma: Laceration/Open Wound- Hip,Trauma - Blunt/Other,Laceration/Open Wound,6
+S46.829A,Trauma: Laceration/Open Wound- Shoulder,Trauma: Laceration/Open Wound- Shoulder,Trauma - Blunt/Other,Laceration/Open Wound,5
+S11.01,Trauma: Laceration/Open Wound- Throat,Trauma: Laceration/Open Wound- Throat,Trauma - Blunt/Other,Laceration/Open Wound,2
+T07,Trauma: Multiple Injuries,Trauma: Multiple Injuries,Trauma - Blunt/Other,Multisystem Trauma,232
+S27.0,Trauma: Pneumothorax,Trauma: Pneumothorax,Trauma - Blunt/Other,Pneumothorax,3
+S34.109,Trauma: Other Injury- Spinal Cord Lumbar,Trauma: Other Injury- Spinal Cord Lumbar,Trauma - Blunt/Other,Spinal Cord Injury,8
+S14.109,Trauma: Other Injury- Spinal Cord Cervical,Trauma: Other Injury- Spinal Cord Cervical,Trauma - Blunt/Other,Spinal Cord Injury,5
+S24.109,Trauma: Other Injury- Spinal Cord Thoracic,Trauma: Other Injury- Spinal Cord Thoracic,Trauma - Blunt/Other,Spinal Cord Injury,2
+T79.4,Shock- Traumatic,Shock- Traumatic,Trauma - Blunt/Other,Traumatic Shock,2
+T79.4,xShock- Traumatic,Shock- Traumatic,Trauma - Blunt/Other,Traumatic Shock,1
+NA,Not Applicable,Not Applicable,Unknown/Not Recorded,Not Applicable/Not Recorded,20
+7701001,Not Applicable,Not Applicable,Unknown/Not Recorded,Not Applicable/Not Recorded,5

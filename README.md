@@ -65,7 +65,7 @@ list(
 #>  [8] "9.99"    "950"     "7M"      "NA"     
 #> 
 #> $pcts
-#>  [1] "15%" "79%" "96%" "43%" "95%" "29%" "64%" "92%" "90%" "32%"
+#>  [1] "0%"  "49%" "14%" "25%" "14%" "5%"  "27%" "83%" "29%" "79%"
 ```
 
 ### if_error
@@ -89,3 +89,40 @@ This is a useful function for functional programming with uncertain
 data. By providing a set of defined column names with regex pattern
 matching, the function identifies and renames columns in the provided
 data to enable building flexible functional data.
+
+### Clinical grouping (EMS)
+
+`lump_impressions()` and `lump_injury_causes()` collapse the messy
+provider-primary-impression (eSituation.11) and cause-of-injury
+(eInjury.01) value lists from DFR ImageTrend data into a consistent
+two-tier clinical taxonomy: `tier1` is a broad patient-type category and
+`tier2` is the specific condition or mechanism. Matching works by ICD-10
+`code`, by `desc`, or both (code takes precedence, description fills the
+gaps), and is tolerant of case, whitespace, deactivated `x`-prefixed
+items, and the mojibake “glued” value-list variants. Values that match
+nothing return `"Other/Unmatched"` with a warning.
+
+``` r
+library(samuelr)
+lump_impressions(desc = c(
+  "Trauma: Gunshot Wound- Chest",
+  "Respiratory: COPD Exacerbation",
+  "Cardiac: Chest Pain (Not STEMI)"
+))
+#> [1] Penetrating Trauma       Respiratory              Cardiac - Chest Pain/ACS
+#> 28 Levels: Trauma - Blunt/Other ... Other/Unmatched
+```
+
+The underlying lookup tables ship as the `impression_groups` and
+`injury_cause_groups` datasets (curated source in `data-raw/`).
+
+`separate_desc_code()` tidies the combined `"Description (Code)"`
+columns ImageTrend extracts often emit, splitting them into `<col>_desc`
+/ `<col>_code` columns and expanding multi-entry “list” cells into
+multiple rows.
+
+### Plotting
+
+`better_hist()` draws a quick, themed histogram. `bar_graph()` and
+`hist_graph()` are convenience plotting helpers styled with the DFR
+(“dfromd”) palette via `scale_color_dfr()` / `scale_fill_dfr()`.

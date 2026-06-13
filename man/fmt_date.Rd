@@ -13,7 +13,7 @@ fmt_date(dates, format = c("abbr", "short"), range = F, range_collapse = NULL)
 
 \item{range}{is this a range or not?}
 
-\item{range_collapse}{string for collapse of range, defaults to " to " for
+\item{range_collapse}{strbing for collapse of range, defaults to " to " for
 "abbr" format and " - " for "short" format.}
 }
 \value{
