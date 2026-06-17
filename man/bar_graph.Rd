@@ -75,9 +75,11 @@ using the `hrbrthemes::theme_ipsum_rc()` theme `dfr_cols("omd_navy")` as the def
 and auto-positioned bar labels.
 }
 \examples{
+\dontrun{
 mtcars |>
     bar_graph(y = as.character(cyl),
               title = "Number of Vehicles by Cylinder Count",
               xlab = "Number of Vehicles", ylab = "Number of Cylinders"
               )
+}
 }

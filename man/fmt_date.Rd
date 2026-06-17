@@ -4,7 +4,12 @@
 \alias{fmt_date}
 \title{Opinionated Date Formatting}
 \usage{
-fmt_date(dates, format = c("abbr", "short"), range = F, range_collapse = NULL)
+fmt_date(
+  dates,
+  format = c("abbr", "short"),
+  range = FALSE,
+  range_collapse = NULL
+)
 }
 \arguments{
 \item{dates}{vector of dates}
@@ -31,7 +36,7 @@ fmt_date(x, "abbr") # Jan 1, 2025
 fmt_date(x, "short") # 1/1/2025
 
 a <- c(x, as.Date("2025-07-15"))
-fmt_date(a, "abbr", range = T) # Jan 1, 2025 to Jul 15, 2025
-fmt_date(a, "short", range=T, range_collapse = " – ") # 1/1/2025 – 7/15/2025
+fmt_date(a, "abbr", range = TRUE) # Jan 1, 2025 to Jul 15, 2025
+fmt_date(a, "short", range=TRUE, range_collapse = " – ") # 1/1/2025 - 7/15/2025
 
 }

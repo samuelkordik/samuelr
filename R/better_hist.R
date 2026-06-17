@@ -27,7 +27,7 @@ better_hist <- function(.data,
                     ...
 ) {
   if (is.null(label_args$title))
-    label_args$title <- paste0(rlang::as_string(expr(.data)), " Histogram")
+    label_args$title <- paste0(rlang::as_string(rlang::expr(.data)), " Histogram")
 
   if (is.null(label_args$y))
     label_args$y <- "count"
@@ -39,7 +39,7 @@ better_hist <- function(.data,
   x_vals <- x_vals[!is.na(x_vals)]
   mu <- mean(x_vals, na.rm=TRUE)
   sigma  <- sd(x_vals, na.rm=TRUE)
-  med <- median(x_vals, na.r=TRUE)
+  med <- median(x_vals, na.rm=TRUE)
 
   # Calculate binwidth
   fd_binwidth <- 2 * IQR(x_vals, na.rm=TRUE) / length(x_vals)^(1/3)
@@ -48,9 +48,9 @@ better_hist <- function(.data,
   density_data <- density(.data[[rlang::as_name(aes_x)]])
   max_density <- max(density_data$y)
 
-  hist_info <- ggplot_build(
-    ggplot(.data, aes(x = !!aes_x)) +
-      geom_histogram(binwidth = fd_binwidth)
+  hist_info <- ggplot2::ggplot_build(
+    ggplot2::ggplot(.data, ggplot2::aes(x = !!aes_x)) +
+      ggplot2::geom_histogram(binwidth = fd_binwidth)
   )$data[[1]]
 
   max_count <- max(hist_info$count)
@@ -93,28 +93,28 @@ better_hist <- function(.data,
 
   if (!is.null(add_min)) {
     annotations |>
-      add_row(x = round(min(x_vals),2),
+      tibble::add_row(x = round(min(x_vals),2),
               y = hist_info[1,]$ymax + 3,
               label = "Min:") -> annotations
   }
 
   if (!is.null(add_max)) {
     annotations |>
-      add_row(x = round(max(x_vals), 2),
+      tibble::add_row(x = round(max(x_vals), 2),
               y = hist_info[length(hist_info)-1,]$ymax + 10,
               label = "Max:") -> annotations
   }
 
   if (!is.null(add_median)) {
     annotations |>
-      add_row(x = round(med, 2),
+      tibble::add_row(x = round(med, 2),
               y = locate_y_height(med) |> dplyr::pull("y")+5,
               label = "Median:") -> annotations
   }
 
   if (!is.null(add_mean)) {
     annotations |>
-      add_row(x = round(mu, 2),
+      tibble::add_row(x = round(mu, 2),
               y = locate_y_height(mu) |> dplyr::pull("y")+ 5,
               label = "Mean:") -> annotations
   }
@@ -123,11 +123,11 @@ better_hist <- function(.data,
     for (sd_x in add_sd) {
       xsd <- mu - sd_x * sigma
       xsdz <- mu + sd_x * sigma
-      annotations |> add_row(
+      annotations |> tibble::add_row(
         x = xsd,
         y = locate_y_height(xsd) |> dplyr::pull(y) + 5,
         label = paste0("-", sd_x, "𝜎")
-      ) |> add_row(
+      ) |> tibble::add_row(
         x = xsdz,
         y = locate_y_height(xsd) |> dplyr::pull(y) + 5,
         label = paste0(sd_x, "𝜎")
@@ -137,7 +137,7 @@ better_hist <- function(.data,
 
 
   .data |>
-    ggplot2::ggplot(aes(x = !!aes_x)) +
+    ggplot2::ggplot(ggplot2::aes(x = !!aes_x)) +
     ggplot2::geom_histogram(fill = hist_fill, color = hist_lines, binwidth = fd_binwidth,
                             ...) +
     hrbrthemes::theme_ipsum_rc(grid="Y") -> p
@@ -145,16 +145,16 @@ better_hist <- function(.data,
   if (add_density) {
 
     p <- p +
-      ggplot2::geom_density(aes(y = ..density.. * scale_factor),
+      ggplot2::geom_density(ggplot2::aes(y = ..density.. * scale_factor),
                    fill = dfr_colors$yellow,
                    color = dfr_colors$omd_navy,
                    alpha = 0.5) +
       hrbrthemes::scale_y_comma(name = yaxis,
-                    sec.axis = sec_axis(~ . / scale_factor, name = secaxis),
-                    expand = expansion(mult = c(0, 0.1)))
+                    sec.axis = ggplot2::sec_axis(~ . / scale_factor, name = secaxis),
+                    expand = ggplot2::expansion(mult = c(0, 0.1)))
 
   } else {
-    p <- p + hrbrthemes::scale_y_comma(expand = expansion(mult = c(0, 0.1)))
+    p <- p + hrbrthemes::scale_y_comma(expand = ggplot2::expansion(mult = c(0, 0.1)))
   }
 
   if (length(label_args) > 0) {
@@ -162,28 +162,27 @@ better_hist <- function(.data,
   }
 
   if (add_mean) {
-    p <- p + ggplot2::geom_vline(xintercept = mu, color = stat_lines, size=1)
+    p <- p + ggplot2::geom_vline(xintercept = mu, color = stat_lines, linewidth=1)
   }
 
-  if (add_median) {
-    p <- p + ggplot2::geom_vline(xintercept = med, color = stat_lines, size=1)
+  if (!is.null(add_median)) {
+    p <- p + ggplot2::geom_vline(xintercept = med, color = stat_lines, linewidth=1)
   }
 
   if (!is.null(add_sd)) {
     for (sd_x in add_sd) {
       p <- p +
         ggplot2::geom_vline(xintercept = mu - sd_x * sigma,
-                   color = stat_lines, size=.9, linetype = "dashed") +
+                   color = stat_lines, linewidth=.9, linetype = "dashed") +
         ggplot2::geom_vline(xintercept = mu + sd_x * sigma,
-                   color = stat_lines, size=.9, linetype = "dashed")
+                   color = stat_lines, linewidth=.9, linetype = "dashed")
     }
   }
 
 
   p <- p + ggplot2::xlim(lower_bound, upper_bound) +
     ggplot2::geom_label(data = annotations,
-              aes(x = x, y = y, label = paste(label, x),
-                  ),
+              ggplot2::aes(x = x, y = y, label = paste(label, x)),
               fontface = "bold")
 
   p

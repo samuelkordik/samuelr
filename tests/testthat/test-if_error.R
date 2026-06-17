@@ -5,7 +5,7 @@ test_that("Returns function value if no error", {
 
 test_that("Returns NA if error, verbose", {
   log_or_na <- if_error(log)
-  a <- log_or_na("A")
+  a <- suppressMessages(log_or_na("A"))
   expect_equal(a, NA)
   expect_message(log_or_na("A"), "non-numeric argument")
 })
@@ -19,7 +19,7 @@ test_that("Returns NA if error, stays silent", {
 
 test_that("Returns custom value if error, verbose", {
   log_or_na <- if_error(log, .on_error = 2)
-  expect_equal(log_or_na("A"), 2)
+  expect_equal(suppressMessages(log_or_na("A")), 2)
   expect_message(log_or_na("A"), "non-numeric argument")
 })
 

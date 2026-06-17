@@ -86,11 +86,11 @@ use_defined_columns <- function(data,
   } else {
 
     attempt::stop_if_not(
-      vapply(column_required, \(x) x %in% c("required", "optional"),  logical(1)),
+      all(vapply(column_required, \(x) x %in% c("required", "optional"), logical(1))),
       msg = "column_types must be either required or optional."
     )
 
-    if(length(column_required == 1)) {
+    if(length(column_required) == 1) {
       column_required <- replicate(length(defined_colnames),
                                    column_required)
     } else {
@@ -134,6 +134,7 @@ use_defined_columns <- function(data,
                                        defined_colname_patterns)
 
   tibble::tibble(colname = stringr::str_to_lower(colnames(data)),
+                  orig_colname = colnames(data),
                   column_definitions |> tidyr::pivot_wider(names_from = `defined_colnames`,
                                                            values_from = `defined_colname_patterns`)
   ) -> cols_to_check
@@ -142,9 +143,9 @@ use_defined_columns <- function(data,
   g_source_cols <-  length(colnames(data))
   cli::cli_inform("Checking for {g_defined_cols} defined columns in {g_source_cols} columns in source dataframe.")
 
-  # Check for columns
+  # Check for columns — save intermediate per-row match matrix as `temp`
   cols_to_check |>
-    dplyr::mutate(dplyr::across(-colname,
+    dplyr::mutate(dplyr::across(c(-colname, -orig_colname),
                                 ~ stringr::str_detect(colname, .x)
     )) |>
     dplyr::rowwise() |>
@@ -152,37 +153,18 @@ use_defined_columns <- function(data,
     dplyr::mutate(unmatched_column = matched_column_n < 1 | is.na(matched_column_n),
                   overmatched_column = matched_column_n > 1,
                   matched_column = matched_column_n == 1) |>
-    dplyr::ungroup() |>
+    dplyr::ungroup() -> temp
+
+  temp |>
     dplyr::summarize(
       dplyr::across(dplyr::where(is.logical), ~ sum(.x, na.rm=TRUE)
       )
     ) -> checked_cols
 
-  # FINISH IT
-  dplyr::bind_cols(
-    checked_cols |>
-      dplyr::select(-unmatched_column,
-                    -overmatched_column,
-                    -matched_column) |>
-      tidyr::pivot_longer(tidyr::everything(),
-                          names_to = "variable") |>
-      dplyr::mutate(missing = value < 1 | is.na(value),
-                    multiple = value > 1
-      ) |>
-      dplyr::summarize(matched_columns = sum(value, na.rm=TRUE),
-                       missing_columns = sum(missing, na.rm=TRUE),
-                       multiple_columns = sum(multiple, na.rm=TRUE)
-      ),
-    checked_cols |> dplyr::select(unmatched_column,
-                                  overmatched_column,
-                                  matched_column
-    )
-  ) |> dplyr::mutate(total_columns = length(colnames(cad))) -> output
-
 
   ############### SELECT #########
   get_match <- function(a) {
-    temp[temp[[a]],]$colname
+    temp[temp[[a]],]$orig_colname
   }
 
   tibble::tibble(defined_colnames) -> crossmatch

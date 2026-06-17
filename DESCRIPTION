@@ -19,22 +19,27 @@ BugReports: https://github.com/samuelkordik/samuelr/issues
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
-Imports: 
+Imports:
     attempt,
+    cli,
     dplyr,
     fitdistrplus,
     forcats,
     ggplot2,
+    glue,
     gt,
     hrbrthemes,
     lubridate,
     MASS,
+    patchwork,
     purrr,
     readr,
     rlang,
+    scales,
     stats,
     stringr,
     tibble,
+    tidyr,
     withr
 Depends: 
     R (>= 3.5)

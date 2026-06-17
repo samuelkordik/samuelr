@@ -59,13 +59,15 @@ A ggplot2 wrapper that produces a consistently-styled histogram using the
 fill colour. Supports optional fill mapping and log-scaled x-axis.
 }
 \examples{
+\dontrun{
 data.frame(
     id = replicate(
        500,
        paste(sample(letters, 3, replace = TRUE), collapse=""),
-       simplify=T),
+       simplify=TRUE),
      n = rnorm(500, mean=50, sd = 10)
 ) |>
 hist_graph(n, title = "Normal Distribution")
+}
 
 }

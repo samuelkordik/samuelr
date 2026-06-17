@@ -13,7 +13,6 @@
 #' log_or_na("A") # Returns NA, but no error.
 #'
 if_error <- function(.f, .on_error = NA, .verbose = TRUE) {
-library(attempt)
     .f <- rlang::as_function(.f)
 
     function(...) {

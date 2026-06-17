@@ -41,11 +41,7 @@ dfr_cols <- function(...) {
         ))
     }
 
-    lapply(cols, function(col) {
-        dfr_colors[[col]]
-    })
-
-    #dfr_colors[[cols %in% names(dfr_colors)]]
+    unlist(dfr_colors[cols])
 }
 
 dfr_palettes <- list(
@@ -97,9 +93,9 @@ scale_color_dfr <- function(
     pal <- dfr_pal(palette = palette, reverse = reverse)
 
     if (discrete) {
-        discrete_scale("color", paste0("dfr_", palette), palette = pal, ...)
+        ggplot2::discrete_scale("color", palette = pal, ...)
     } else {
-        scale_color_gradientn(colours = pal(256), ...)
+        ggplot2::scale_color_gradientn(colours = pal(256), ...)
     }
 }
 
@@ -120,8 +116,8 @@ scale_fill_dfr <- function(
     pal <- dfr_pal(palette = palette, reverse = reverse)
 
     if (discrete) {
-        discrete_scale("fill", paste0("dfr_", palette), palette = pal, ...)
+        ggplot2::discrete_scale("fill", palette = pal, ...)
     } else {
-        scale_fill_gradientn(colours = pal(256), ...)
+        ggplot2::scale_fill_gradientn(colours = pal(256), ...)
     }
 }

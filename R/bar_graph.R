@@ -38,11 +38,13 @@
 #' @returns A `ggplot` object.
 #' @export
 #' @examples
+#' \dontrun{
 #' mtcars |>
 #'     bar_graph(y = as.character(cyl),
 #'               title = "Number of Vehicles by Cylinder Count",
 #'               xlab = "Number of Vehicles", ylab = "Number of Cylinders"
 #'               )
+#' }
 
 bar_graph <- function(
     .data,
@@ -185,10 +187,7 @@ bar_graph <- function(
 
     if (missing(align_title)) {
         align_title <- "plot"
-    } else if (
-        align_title != "panel" |
-            align_title != "plot"
-    ) {
+    } else if (!(align_title %in% c("panel", "plot"))) {
         cli::cli_alert_warning(
             "`align_title` improperly set, defaulting to 'plot'"
         )
@@ -213,9 +212,8 @@ bar_graph <- function(
             ) +
             ggplot2::theme(legend.position = legend.position) -> plot_out
 
-        library(patchwork)
         plot_out +
-            plot_annotation(
+            patchwork::plot_annotation(
                 title = title,
                 subtitle = subtitle,
                 caption = caption,

@@ -29,14 +29,16 @@
 #' @export
 #'
 #' @examples
+#' \dontrun{
 #' data.frame(
 #'     id = replicate(
 #'        500,
 #'        paste(sample(letters, 3, replace = TRUE), collapse=""),
-#'        simplify=T),
+#'        simplify=TRUE),
 #'      n = rnorm(500, mean=50, sd = 10)
 #' ) |>
 #' hist_graph(n, title = "Normal Distribution")
+#' }
 #'
 hist_graph <- function(
     .data,
